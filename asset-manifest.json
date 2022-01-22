@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LetzVibe/static/css/main.19129701.css",
+    "main.js": "/LetzVibe/static/js/main.c30db7ff.js",
+    "static/media/img-15.jpg": "/LetzVibe/static/media/img-15.29350235645827a65b24.jpg",
+    "static/media/img-16.jpg": "/LetzVibe/static/media/img-16.c541dc5314a9eadfeb1a.jpg",
+    "index.html": "/LetzVibe/index.html",
+    "main.19129701.css.map": "/LetzVibe/static/css/main.19129701.css.map",
+    "main.c30db7ff.js.map": "/LetzVibe/static/js/main.c30db7ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19129701.css",
+    "static/js/main.c30db7ff.js"
+  ]
+}
