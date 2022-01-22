@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import './Cards.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -12,11 +13,16 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
+                        
                         <CardItem
                         src='images/img-11.jpg'
                         text="Vibe in Coorg-India's own Scotland "
                         label="Nature"
-                        path="/services"
+                         path="/services"
+                        // to="https://www.holidify.com/places/coorg/"
+                           
+                        
+                        
                         />
                         <CardItem
                         src='images/img-12.jpg'

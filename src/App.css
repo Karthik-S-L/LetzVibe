@@ -55,7 +55,55 @@
   }
   
   .sign-up-screen {
-    background-image: url('../public/images/img-16.jpg');
+    background-image: url('../public/images/img-16.jpg') ;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+  }
+
+  .sign-up-container-box{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 10px 26px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    backdrop-filter: blur(5px);
+    stroke: white;
+    text-shadow: rgb(255, 251, 251) 0px 1px 7px;
+
     
   }
+  .sign-up-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .sign-up-form >Label{
+    margin: 2px;
+    padding: 5px 5px;
+    font-size: large;
+  }
+  .sign-up-form-label >input{
+    border-radius: 5px;
+    background: transparent;
+  }
+  .sign-up-submit{
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    margin: 9px;
+    padding: 11px 30px;
+  }
+  .sign-up-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+ 
+
+
